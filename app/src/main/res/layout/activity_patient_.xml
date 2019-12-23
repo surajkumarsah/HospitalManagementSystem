@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Patient_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PATIENT DASHBOARD"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorBlue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            >
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@drawable/background1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            >
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_tag_faces_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorBlue"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:text="Update Profile"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@drawable/background1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            >
+        <ImageView
+            android:id="@+id/appointment"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_apps_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Appo."
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorBlue"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal"
+            android:text="View Appo. History"
+            />
+
+    </LinearLayout>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            >
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@drawable/background1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+            android:id="@+id/book_appointment"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_add_box_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book My Appointment"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorBlue"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:text="Book Appointment"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+        </GridLayout>
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>

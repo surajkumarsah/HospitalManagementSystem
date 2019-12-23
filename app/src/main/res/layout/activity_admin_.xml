@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Admin_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Dashboard"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/background"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlue"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@drawable/background1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+        <ImageView
+                android:id="@+id/patient"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_tag_faces_black_24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manage Patients"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorBlue"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlue"
+                android:textSize="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Total registered patients"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@drawable/background1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/doctor"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/grid_img1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manage Doctors"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorBlue"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlue"
+                android:textSize="10dp"
+                android:text="Total number of Doctors"
+                />
+
+        </LinearLayout>
+        </GridLayout>
+    </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@drawable/background1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+        <ImageView
+                android:id="@+id/appointment"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/grid_img2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointments"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorBlue"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlue"
+                android:textSize="10dp"
+                android:text="Appointments of Patients"
+                />
+
+        </LinearLayout>
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

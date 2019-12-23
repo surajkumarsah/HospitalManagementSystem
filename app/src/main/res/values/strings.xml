@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hospital Management System</string>
+    <string name="title_activity_login_">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="about">Hospital Management System(HMS) is a system for managing the hospital functions and events. It has different modules such as adding new doctors, managing parents and managing appointments. It is a Android-based powerful hospital management containing user and admin panel. it is having an integrated management software. It is an effective software specifically designed to fulfill various requirements in managing hospitals. This dedicated software developed savvies at Android Stdio. Hospital management system Project is free to download and the source code is based on Java. comments are inputted into the source code for better understanding. optimized codes are being used and is easy to understand.</string>
+    <string name="patient">Managing patients: manage patient records and all the features such as modify, delete and undelete can be done on the records. </string>
+    <string name="manage">Modules and its features: Managing Doctors: User can add new listings of doctors through that panel. and list can be modify and delete. deleted records will be displayed in tabular format which can be undeleted.</string>
+    <string name="appo">Appointments: appointments can be managed through doctor id and patients id in the application</string>
+</resources>
